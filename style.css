@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-position: left;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+
+    position: relative;
+}
+
+.summary-container{
+    height: 38rem;
+    width: 22rem;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 1rem;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero{
+    background-image: url(images/illustration-hero.svg);
+     background-position: center;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+
+    height: 13rem;
+    width: 22rem;
+    
+
+}
+
+.content{
+    margin: 0 auto;
+    width: 85%;
+    padding-top: 1.7rem;
+
+    border: 1px solid red;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+}
+
+.content p{
+    width: 15rem;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0.7rem;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+.annual-plan-grid{
+    width: 15rem;
+
+    margin-left: -9rem;
+    margin: 1.5rem auto;
+    border: 1px solid green;
+
+
+    display: flex;
+    gap: 0;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.svg{
+    background-image: url(images/icon-music.svg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid  red;
+    min-width: 3rem;
+    height: 3rem;
+}
+
+.annual-plan-box{
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.1rem;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+}
+
+.annual-plan-box h4{
+    margin-bottom: -1rem;
+}
